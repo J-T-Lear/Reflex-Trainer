@@ -150,7 +150,7 @@ class _MyHomePageState extends State<MyHomePage> {
               ),
 
               const Text(
-                    'Try to score as you can in 10 seconds', 
+                    'Try to score as much you can in 10 seconds', 
               ),
 
               const SizedBox(
