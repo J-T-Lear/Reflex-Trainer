@@ -64,8 +64,8 @@ class _GuessPage extends State<GuessPage> {
       w6 = Random().nextInt(150) + Random().nextDouble();
 
       
-      h1 = Random().nextInt(200) + Random().nextDouble();
-      h2 = Random().nextInt(200) + Random().nextDouble();  
+      h1 = Random().nextInt(150) + Random().nextDouble();
+      h2 = Random().nextInt(150) + Random().nextDouble();  
   }
 
   randomizebutton(){ 
@@ -368,7 +368,7 @@ class _GuessPage extends State<GuessPage> {
           Column(
             children: [
                 const SizedBox(
-                 height: 80,
+                 height: 40,
                  ),
 
                 Text(
